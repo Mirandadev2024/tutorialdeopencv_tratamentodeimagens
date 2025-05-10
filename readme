@@ -1,0 +1,27 @@
+# Correção de Saturação em Imagens com OpenCV
+
+Este projeto em Python utiliza a biblioteca OpenCV para realizar processamento de imagem, com foco na análise e ajuste da saturação de uma imagem colorida. O notebook permite visualizar canais individuais da imagem (BGR e HSV), escurecer a imagem e aplicar uma correção de saturação.
+
+## Funcionalidades
+
+- Leitura de imagem colorida a partir de caminho fornecido pelo usuário.
+- Visualização da imagem em tons de cinza e com canais BGR invertidos.
+- Separação e exibição dos canais Azul, Verde e Vermelho.
+- Conversão da imagem de BGR para HSV.
+- Visualização dos componentes matiz, saturação e brilho.
+- Aplicação de uma matriz para escurecer a imagem.
+- Subtração de uma matriz do canal de saturação para correção.
+- Conversão de volta para o espaço de cor BGR.
+- Comparação lado a lado das imagens tratadas.
+
+## Pré-requisitos
+
+- Python 3.x
+- Jupyter Notebook
+- OpenCV (`cv2`)
+- NumPy
+- Matplotlib
+
+Instale os pacotes com:
+
+pip install opencv-python numpy matplotlib
